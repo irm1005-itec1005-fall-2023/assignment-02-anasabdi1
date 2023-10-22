@@ -5,10 +5,42 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
+  background-color: #f9f9f9;
+  color: #023047;
+}
+
+.nav1 ul {
+  text-decoration:underline;
+  margin: 0;
+  padding: 0;
+} 
+nav a{
+  text-decoration: underline;
+  color: #0f1010;
+  margin: .5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+  
+
+.webname {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: left;
+  color: #eceff0;
+  padding: 1rem;
+  background-color: #023047;
+}
+  
+.header{
+  background-color: #f5f8f9;
+  color: #f5f8f9;
+  padding: 2rem;
+  margin-bottom: 1rem;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -16,4 +48,177 @@ h1 {
   font-weight: bold;
   text-align: center;
   color: #023047;
+}
+.hoophaven{
+  border-radius: 15%;
+  width: 50%;
+}
+h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ball{
+  border-radius: 20%;
+  width: 65%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.toc{
+  padding: 1.5rem;
+  font-size: 2.5rem;
+}
+.tableofcontents{
+  
+  color: #f5f1f1;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav2 ul {
+  text-decoration:underline;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav2 a{
+  text-decoration: none;
+  color: #f0ecec;
+  margin: .5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.intro{
+  background-color: #023047;
+  color: #faf6f6;
+  padding: 2.5rem;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+.herosection{
+  background-color: #023047;
+  color: #faf6f6;
+  padding: 0.5rem;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+.description{
+  background-color: #023047;
+  color: #f3f5f6;
+  padding: 2rem;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+.table{
+ width: 100%;
+  align-items: center;
+  color: #030303;  
+  padding: 2rem;
+  flex-direction: column;
+  border-radius: 5%;
+}
+
+table > thead, tbody, tr, th, td {
+  border: 1px solid #030303;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.denver{
+  border-radius: 15%;
+  width: 60%;
+  padding: 2rem;
+}
+
+.champions{
+  background-color: #023047;
+  color: #f3f5f6;
+  padding: 2rem;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+.cavs{
+  border-radius: 15%;
+  width: 60%;
+  padding: 2rem;
+}
+
+.battle{
+  background-color: #023047;
+  color: #f3f5f6;
+  padding: 2rem;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+.form{
+  background-color: #023047;
+  color: #f3f5f6;
+  padding: 2rem;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+.footer{
+  background-color: #f5f8f9;
+  color: #023047;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.social{
+font-size: 1.3rem;
+font-weight: bold;
+}
+
+.copyright{
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: #023047;
+  color: white
 }
